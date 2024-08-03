@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --bg-color-1: #000000;
+  --bg-color-2: #212121;
+  --text-color-main: #ffffff;
+  --text-color-primary: #000000;
+  --button-bg: #141313;
+  --button-color: #ffffff;
+  --primary-color: linear-gradient(
+    90deg,
+    rgba(184, 106, 223, 1) 0%,
+    rgba(255, 108, 99, 1) 50%,
+    rgba(255, 177, 71, 1) 100%
+  );
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: var(--button-bg);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: var(--bg-color-1);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: var(--primary-color);
+}
+
+body {
+  background: var(--bg-color-1);
+  font-family: "IBM Plex Sans", sans-serif;
+}
+
+.App {
+  display: flex;
+}
+
+.content {
+  color: #ffffff;
+}
+.layout {
+  display: flex;
+}
+
+.header {
+  background-color: antiquewhite;
+
+  width: 100vw;
+}
+
+.menubar {
+  display: none;
+}
+
+/* Media Queries */
+@media (max-width: 1200px) {
+  .menubar {
+    margin: 2rem;
+    position: absolute;
+    display: block;
+  }
+}
+@media (max-width: 768px) {
+  .menubar {
+    display: block;
+  }
+}
+
+@media (max-width: 480px) {
+  .menubar {
+    display: block;
+  }
+}

@@ -1,0 +1,266 @@
+.works {
+  width: 100%;
+}
+
+.work-heading {
+  margin-top: 5rem;
+  margin-left: 4rem;
+}
+
+.work-heading span {
+  font-size: 15px;
+  font-style: italic;
+  font-weight: 600;
+  background: var(--primary-color);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.work-heading h1 {
+  font-size: 2.5em;
+  color: var(--text-color-main);
+}
+
+.recent-project {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin: 3rem auto;
+}
+
+.projects-box {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.project {
+  width: 200px;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.project-images img {
+  width: 250px;
+  border-radius: 8px;
+}
+
+.recent-project p {
+  font-size: 16px;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+  font-style: italic;
+  color: #ccc;
+}
+
+.recent-project h3 {
+  font-size: 24px;
+  color: var(--text-color-main);
+  margin-bottom: 1rem;
+  width: 20px;
+}
+
+.works-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.works .hr-line {
+  width: 80%;
+  margin: 2rem auto;
+  border: 1px solid #ffffff29;
+}
+
+.works-section-bottom {
+  padding: 40px;
+  background: var(--primary-color);
+  color: #fff;
+  border-radius: 10px;
+  margin: 40px auto;
+  width: 90%;
+  max-width: 1000px;
+}
+
+.work-top-content {
+  margin: 3rem auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.work-top-content span {
+  font-size: 15px;
+  font-style: italic;
+  font-weight: 600;
+  color: var(--text-color-main);
+}
+
+.work-top-content h1 {
+  font-size: 2.5em;
+  color: var(--text-color-main);
+}
+
+.testimonial-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5rem;
+}
+
+.testi-images {
+  width: 60%;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.testi-images img {
+  width: 300px;
+}
+
+.testi-content {
+  width: 600px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.testi-content p {
+  font-size: 25px;
+  font-weight: 600;
+  color: var(--text-color-main);
+  font-style: italic;
+  line-height: 2rem;
+}
+
+.testi-content h3 {
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--text-color-main);
+  margin-top: 2rem;
+}
+
+.testi-content span {
+  font-size: 16px;
+  color: var(--text-color-main);
+}
+
+.testi-content .scroll-btn {
+  margin-top: 2rem;
+}
+
+.scroll-btn button {
+  padding: 0.5rem 0.5rem;
+  border: none;
+  cursor: pointer;
+  background: transparent;
+}
+
+.work-hr-line {
+  width: 100%;
+  margin: -10px auto;
+  border: 1px solid #ffffff29;
+}
+
+.work-logos {
+  margin: 1rem auto;
+}
+
+/* Media Queries */
+@media (max-width: 1200px) {
+}
+@media (max-width: 768px) {
+  .testimonial-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+  }
+
+  .work-heading {
+    margin-top: 7rem;
+    margin-left: 2rem;
+  }
+
+  .work-heading span {
+    font-size: 14px;
+  }
+
+  .work-heading h1 {
+    font-size: 2.2em;
+  }
+}
+
+@media (max-width: 480px) {
+  .testimonial-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+  }
+
+  .work-heading {
+    margin-top: 7rem;
+    margin-left: 2rem;
+  }
+
+  .work-heading span {
+    font-size: 14px;
+  }
+
+  .work-heading h1 {
+    font-size: 2.2em;
+  }
+
+  .testi-images {
+    width: 50%;
+  }
+
+  .testi-images img {
+    width: 250px;
+  }
+
+  .testi-content {
+    width: 330px;
+  }
+
+  .testi-content p {
+    font-size: 20px;
+  }
+
+  .testi-content h3 {
+    font-size: 18px;
+  }
+
+  .testi-content span {
+    font-size: 14px;
+  }
+
+  .testi-content .scroll-btn {
+    margin-top: 2rem;
+  }
+
+  .scroll-btn button {
+    padding: 0.5rem 0.5rem;
+    border: none;
+    cursor: pointer;
+    background: transparent;
+  }
+
+  .work-hr-line {
+    width: 100%;
+    margin: -10px auto;
+    border: 1px solid #ffffff29;
+  }
+
+  .work-logos {
+    display: none;
+  }
+}
